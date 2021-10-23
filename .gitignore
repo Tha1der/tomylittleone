@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+beny_template/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
