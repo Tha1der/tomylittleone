@@ -9,6 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.psd
+*.ai
+*.code-workspace
 beny_template/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
