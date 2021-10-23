@@ -40,7 +40,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  April 07,2021 <a href="#">Travel Landing</a>
+                  April 07,2021 <a href="/#">Travel Landing</a>
                 </span>
                 <h3 className="title" onClick={toggleModalOne}>
                   Dostie Memorie
@@ -80,7 +80,7 @@ const BlogAnimation = () => {
 
                       <div className="details">
                         <span>
-                          April 07,2021 <a href="#">Travel Landing</a>
+                          April 07,2021 <a href="/#">Travel Landing</a>
                         </span>
                         <h3 className="title" onClick={toggleModalOne}>
                           Dostie Memorie
@@ -181,7 +181,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  April 07,2021 <a href="#">Inspiration</a>
+                  April 07,2021 <a href="/#">Inspiration</a>
                 </span>
                 <h3 className="title" onClick={toggleModalTwo}>
                   Chul Urina
@@ -219,7 +219,7 @@ const BlogAnimation = () => {
 
                       <div className="details">
                         <span>
-                          April 07,2021 <a href="#">Inspiration</a>
+                          April 07,2021 <a href="/#">Inspiration</a>
                         </span>
                         <h3 className="title">Chul Urina</h3>
                       </div>
@@ -316,7 +316,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  April 07,2021 <a href="#">Inspiration</a>
+                  April 07,2021 <a href="/#">Inspiration</a>
                 </span>
                 <h3 className="title" onClick={toggleModalThree}>
                   Chul Urina
@@ -354,7 +354,7 @@ const BlogAnimation = () => {
                       {/* END IMAGE */}
                       <div className="details">
                         <span>
-                          April 07,2021 <a href="#">Inspiration</a>
+                          April 07,2021 <a href="/#">Inspiration</a>
                         </span>
                         <h3 className="title">Chul Urina</h3>
                       </div>
