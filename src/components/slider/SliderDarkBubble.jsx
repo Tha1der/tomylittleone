@@ -3,12 +3,16 @@ import Social from "../Social";
 import SocialTwo from "../SocialTwo";
 import Particles from "react-particles-js";
 import ReactTyped from "react-typed";
+import { Parallax } from "react-parallax";
 
 const SliderDarkBubble = () => {
   return (
     //    HERO
+
+    <Parallax bgImage={image1} strength={500}>
     <div className="beny_tm_hero" id="home">
       <div className="frame-layout__particles">
+      
         <Particles
           params={{
             particles: {
@@ -83,7 +87,7 @@ const SliderDarkBubble = () => {
         </a>
       </div>
       {/* End animated goto button */}
-
+{/* 
       <div className="container">
         <div className="content">
           <div className="content_inner">
@@ -112,30 +116,12 @@ const SliderDarkBubble = () => {
               passionate about building excellent software that improves the
               lives of those around me.
             </p>
-            <div className="mobile_social">
-              <Social />
-            </div>
-            {/* End .social */}
-
-            <div className="beny_tm_button">
-              <a className="anchor" href="#about">
-                <span className="wrapper">
-                  <span className="first">Get Started</span>
-                  <span className="second">Get Started</span>
-                </span>
-              </a>
-            </div>
-            {/* End beny_tm_button */}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End .container */}
-
-      <div className="social">
-        <SocialTwo />
-      </div>
-      {/* End .social */}
     </div>
+    </Parallax>
     //HERO
   );
 };

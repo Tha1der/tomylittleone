@@ -31,7 +31,7 @@ const Header = () => {
           <div className="topbar_inner">
             <div className="logo">
               <Link to="/">
-                <img src="img/logo/light.png" alt="brand" />
+                <img src="img\logo\sJLogo_dark_200.png" alt="brand" />
               </Link>
             </div>
             <div className="menu">
@@ -56,40 +56,20 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#about">
-                    <span className="first">About</span>
-                    <span className="second">About</span>
+                    <span className="first">Letters</span>
+                    <span className="second">Letters</span>
                   </a>
                 </li>
                 <li>
                   <a href="#service">
-                    <span className="first">Service</span>
-                    <span className="second">Service</span>
+                    <span className="first">Photos</span>
+                    <span className="second">Photos</span>
                   </a>
                 </li>
                 <li>
                   <a href="#portfolio">
-                    <span className="first">Portfolio</span>
-                    <span className="second">Portfolio</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#news">
-                    <span className="first">News</span>
-                    <span className="second">News</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact">
-                    <span className="first">Contact</span>
-                    <span className="second">Contact</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
-                    <span className="wrapper">
-                      <span className="first">Buy Now</span>
-                      <span className="second">Buy Now</span>
-                    </span>
+                    <span className="first">Videos</span>
+                    <span className="second">Videos</span>
                   </a>
                 </li>
               </Scrollspy>
