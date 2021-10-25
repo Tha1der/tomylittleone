@@ -1,18 +1,16 @@
 import React from "react";
-import Social from "../Social";
-import SocialTwo from "../SocialTwo";
 import Particles from "react-particles-js";
-import ReactTyped from "react-typed";
 import { Parallax } from "react-parallax";
+import ReactTyped from "react-typed";
+
+const image1 = 'img/slider/50yearsLarge_noBG.png';
 
 const SliderDarkBubble = () => {
   return (
-    //    HERO
-
+    <>
     <Parallax bgImage={image1} strength={500}>
     <div className="beny_tm_hero" id="home">
       <div className="frame-layout__particles">
-      
         <Particles
           params={{
             particles: {
@@ -67,62 +65,90 @@ const SliderDarkBubble = () => {
           }}
         />
       </div>
-      {/* End particle animation */}
-      <div className="background">
+      {/* <div className="background">
         <div
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/50yearsLarge.jpg"
+              process.env.PUBLIC_URL + "img/slider/50yearsLarge_noBG.png"
             })`,
           }}
         ></div>
         <div className="overlay"></div>
-      </div>
-      {/* End bg */}
-
-      <div className="go-to go-to-next">
-        <a href="#about">
-          <span></span>
-        </a>
-      </div>
-      {/* End animated goto button */}
-{/* 
-      <div className="container">
-        <div className="content">
-          <div className="content_inner">
-            <h3 className="name">Hi! I'm Smith.</h3>
-            <h1 className="job">
-              <span className="typer-toper">
-                <ReactTyped
-                  loop
-                  typeSpeed={180}
-                  backSpeed={100}
-                  strings={["Youtuber", "Designer", "Developer"]}
-                  smartBackspace
-                  shuffle={false}
-                  backDelay={1}
-                  fadeOut={false}
-                  fadeOutDelay={100}
-                  loopCount={0}
-                  showCursor
-                  cursorChar="|"
-                />
-              </span>
-              <br /> <span>Based In Australia.</span>
-            </h1>
-            <p className="text">
-              I'm developer focused on crafting user‑friendly experiences, I am
-              passionate about building excellent software that improves the
-              lives of those around me.
-            </p>
-          </div>
-        </div>
       </div> */}
-      {/* End .container */}
-    </div>
-    </Parallax>
-    //HERO
+      <div className="go-to go-to-next">
+            <a href="#about">
+              <span></span>
+            </a>
+          </div>
+          {/* End animated goto button */}
+          <div className="container">
+            <div className="content">
+              <div className="content_inner">
+              {/* <h1
+                  className="job"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="50"
+                >
+                  50 Years
+                </h1>
+                
+                <h2
+                  className="job"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="50"
+                >
+                 From Now...
+                </h2> */}
+                <h2
+                  className="typer"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="100"
+                >
+                  <ReactTyped
+                    loop
+                    typeSpeed={40}
+                    backSpeed={20}
+                    strings={[
+                      "If you knocked on my door and told me that you needed me, I would still drop everything I had to help you...",
+                      "Fifty years from now, if you knocked on my door and told me you were ready to try again, I would be ready to try again.",
+                      "Fifty years from now, if you knocked on my door and told me that you loved me, I would love you back.",
+                    ]}
+                    smartBackspace
+                    shuffle={false}
+                    backDelay={1}
+                    fadeOut={false}
+                    fadeOutDelay={100}
+                    loopCount={0}
+                    showCursor
+                    cursorChar="|"
+                  />
+                </h2>
+
+                <div
+                  className="beny_tm_button"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="200"
+                >
+                  <a className="anchor" href="#about">
+                    <span className="wrapper">
+                      <span className="first">See Some Photos of Us</span>
+                      <span className="second">See Some Photos of Us</span>
+                    </span>
+                  </a>
+                </div>
+                {/* End beny_tm_button */}
+              </div>
+            </div>
+          </div>
+      {/* End particle animation */}
+      </div>
+      </Parallax>
+    </>
   );
 };
 
