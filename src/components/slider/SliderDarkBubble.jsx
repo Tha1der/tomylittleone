@@ -65,17 +65,6 @@ const SliderDarkBubble = () => {
           }}
         />
       </div>
-      {/* <div className="background">
-        <div
-          className="image"
-          style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/50yearsLarge_noBG.png"
-            })`,
-          }}
-        ></div>
-        <div className="overlay"></div>
-      </div> */}
       <div className="go-to go-to-next">
             <a href="#about">
               <span></span>
@@ -85,23 +74,7 @@ const SliderDarkBubble = () => {
           <div className="container">
             <div className="content">
               <div className="content_inner">
-              {/* <h1
-                  className="job"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="50"
-                >
-                  50 Years
-                </h1>
-                
-                <h2
-                  className="job"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="50"
-                >
-                 From Now...
-                </h2> */}
+
                 <h2
                   className="typer"
                   data-aos="fade-up"
